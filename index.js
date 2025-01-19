@@ -16,4 +16,7 @@ function calculateresult() {
     }
 }
 
-
+function deletechar() {
+    const resultField = document.getElementById('result');
+    resultField.value = resultField.value.slice(0, -1);
+}
